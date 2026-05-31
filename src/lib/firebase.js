@@ -145,7 +145,7 @@ export const mockDb = {
   saveProducts: (products) => {
     setLocalStorageData("nomiki_products", products);
   },
-  
+
   // Orders API
   getOrders: () => {
     const initialOrders = [
@@ -195,7 +195,7 @@ export const mockDb = {
   getCustomers: () => {
     const localOrders = mockDb.getOrders();
     const customersMap = new Map();
-    
+
     // Add default users
     customersMap.set("sophia@example.com", {
       name: "Sophia L.",
@@ -204,7 +204,7 @@ export const mockDb = {
       ordersCount: 1,
       totalSpent: 2249
     });
-    
+
     customersMap.set("elena@example.com", {
       name: "Elena R.",
       email: "elena@example.com",
@@ -370,11 +370,11 @@ export const firestoreDb = {
 
 export const shopDb = isMock
   ? {
-      getProducts: async () => mockDb.getProducts(),
-      saveProducts: async (products) => mockDb.saveProducts(products),
-      deleteProduct: async () => undefined,
-      getOrders: async () => mockDb.getOrders(),
-      saveOrders: async (orders) => mockDb.saveOrders(orders),
-      getCustomers: async () => mockDb.getCustomers(),
-    }
+    getProducts: async () => mockDb.getProducts(),
+    saveProducts: async (products) => mockDb.saveProducts(products),
+    deleteProduct: async () => undefined,
+    getOrders: async () => mockDb.getOrders(),
+    saveOrders: async (orders) => mockDb.saveOrders(orders),
+    getCustomers: async () => mockDb.getCustomers(),
+  }
   : firestoreDb;
