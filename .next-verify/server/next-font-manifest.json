@@ -1,0 +1,67 @@
+{
+  "app": {
+    "[project]/src/app/_not-found/page": [
+      "static/media/8bd76523131fa0fc-s.p.0jox806dnq5~c.woff2",
+      "static/media/01e4147cff8141ee-s.p.10ked.7w885.g.woff2",
+      "static/media/2f19417f17ff8e58-s.p.0o~93sw~c_fqg.woff2"
+    ],
+    "[project]/src/app/about/page": [
+      "static/media/8bd76523131fa0fc-s.p.0jox806dnq5~c.woff2",
+      "static/media/01e4147cff8141ee-s.p.10ked.7w885.g.woff2",
+      "static/media/2f19417f17ff8e58-s.p.0o~93sw~c_fqg.woff2"
+    ],
+    "[project]/src/app/admin/page": [
+      "static/media/8bd76523131fa0fc-s.p.0jox806dnq5~c.woff2",
+      "static/media/01e4147cff8141ee-s.p.10ked.7w885.g.woff2",
+      "static/media/2f19417f17ff8e58-s.p.0o~93sw~c_fqg.woff2"
+    ],
+    "[project]/src/app/cart/page": [
+      "static/media/8bd76523131fa0fc-s.p.0jox806dnq5~c.woff2",
+      "static/media/01e4147cff8141ee-s.p.10ked.7w885.g.woff2",
+      "static/media/2f19417f17ff8e58-s.p.0o~93sw~c_fqg.woff2"
+    ],
+    "[project]/src/app/checkout/page": [
+      "static/media/8bd76523131fa0fc-s.p.0jox806dnq5~c.woff2",
+      "static/media/01e4147cff8141ee-s.p.10ked.7w885.g.woff2",
+      "static/media/2f19417f17ff8e58-s.p.0o~93sw~c_fqg.woff2"
+    ],
+    "[project]/src/app/contact/page": [
+      "static/media/8bd76523131fa0fc-s.p.0jox806dnq5~c.woff2",
+      "static/media/01e4147cff8141ee-s.p.10ked.7w885.g.woff2",
+      "static/media/2f19417f17ff8e58-s.p.0o~93sw~c_fqg.woff2"
+    ],
+    "[project]/src/app/login/page": [
+      "static/media/8bd76523131fa0fc-s.p.0jox806dnq5~c.woff2",
+      "static/media/01e4147cff8141ee-s.p.10ked.7w885.g.woff2",
+      "static/media/2f19417f17ff8e58-s.p.0o~93sw~c_fqg.woff2"
+    ],
+    "[project]/src/app/order-success/page": [
+      "static/media/8bd76523131fa0fc-s.p.0jox806dnq5~c.woff2",
+      "static/media/01e4147cff8141ee-s.p.10ked.7w885.g.woff2",
+      "static/media/2f19417f17ff8e58-s.p.0o~93sw~c_fqg.woff2"
+    ],
+    "[project]/src/app/page": [
+      "static/media/8bd76523131fa0fc-s.p.0jox806dnq5~c.woff2",
+      "static/media/01e4147cff8141ee-s.p.10ked.7w885.g.woff2",
+      "static/media/2f19417f17ff8e58-s.p.0o~93sw~c_fqg.woff2"
+    ],
+    "[project]/src/app/product/[id]/page": [
+      "static/media/8bd76523131fa0fc-s.p.0jox806dnq5~c.woff2",
+      "static/media/01e4147cff8141ee-s.p.10ked.7w885.g.woff2",
+      "static/media/2f19417f17ff8e58-s.p.0o~93sw~c_fqg.woff2"
+    ],
+    "[project]/src/app/shop/page": [
+      "static/media/8bd76523131fa0fc-s.p.0jox806dnq5~c.woff2",
+      "static/media/01e4147cff8141ee-s.p.10ked.7w885.g.woff2",
+      "static/media/2f19417f17ff8e58-s.p.0o~93sw~c_fqg.woff2"
+    ],
+    "[project]/src/app/wishlist/page": [
+      "static/media/8bd76523131fa0fc-s.p.0jox806dnq5~c.woff2",
+      "static/media/01e4147cff8141ee-s.p.10ked.7w885.g.woff2",
+      "static/media/2f19417f17ff8e58-s.p.0o~93sw~c_fqg.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

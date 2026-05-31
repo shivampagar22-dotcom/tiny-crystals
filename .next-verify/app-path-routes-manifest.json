@@ -1,0 +1,16 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/admin/page": "/admin",
+  "/cart/page": "/cart",
+  "/checkout/page": "/checkout",
+  "/contact/page": "/contact",
+  "/favicon.ico/route": "/favicon.ico",
+  "/login/page": "/login",
+  "/order-success/page": "/order-success",
+  "/page": "/",
+  "/product/[id]/page": "/product/[id]",
+  "/shop/page": "/shop",
+  "/wishlist/page": "/wishlist"
+}
