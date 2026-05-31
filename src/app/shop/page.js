@@ -235,7 +235,7 @@ function ShopContentInner() {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "tween", duration: 0.3 }}
-              className="relative w-80 bg-card-bg h-full shadow-2xl p-6 flex flex-col justify-between overflow-y-auto border-l border-sand/20 z-10"
+              className="relative w-80 bg-[var(--background)] h-full shadow-2xl p-6 flex flex-col justify-between overflow-y-auto border-l border-sand/20 z-10"
             >
               <div className="space-y-8">
                 <div className="flex justify-between items-center border-b border-sand/15 pb-4">

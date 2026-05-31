@@ -45,6 +45,19 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Listen for system theme changes automatically
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    const handleChange = (e) => {
+      // Only auto-switch if user hasn't explicitly set a preference
+      if (!localStorage.getItem("nomiki_theme")) {
+        setDarkMode(e.matches);
+      }
+    };
+    mediaQuery.addEventListener("change", handleChange);
+    return () => mediaQuery.removeEventListener("change", handleChange);
+  }, []);
+
   // Dark Mode init
   useEffect(() => {
     if (darkMode) {
