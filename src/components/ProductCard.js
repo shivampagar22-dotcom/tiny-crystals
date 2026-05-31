@@ -58,20 +58,20 @@ export default function ProductCard({ product, onQuickView }) {
           
           <button
             onClick={() => onQuickView?.(product)}
-            className="p-3 rounded-full bg-white hover:bg-maroon hover:text-white text-maroon shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-all duration-300"
+            className="p-2 sm:p-3 rounded-full bg-white hover:bg-maroon hover:text-white text-maroon shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-all duration-300"
             title="Quick View"
             disabled={!onQuickView}
           >
-            <Eye className="w-5 h-5" />
+            <Eye className="w-4 h-4 sm:w-5 sm:h-5" />
           </button>
           
           {product.stock > 0 && (
             <button
               onClick={() => addToCart(product, 1)}
-              className="p-3 rounded-full bg-white hover:bg-maroon hover:text-white text-maroon shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 delay-75"
+              className="p-2 sm:p-3 rounded-full bg-white hover:bg-maroon hover:text-white text-maroon shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 delay-75"
               title="Add to Cart"
             >
-              <ShoppingBag className="w-5 h-5" />
+              <ShoppingBag className="w-4 h-4 sm:w-5 sm:h-5" />
             </button>
           )}
 
@@ -79,13 +79,13 @@ export default function ProductCard({ product, onQuickView }) {
       </div>
 
       {/* Info Section */}
-      <div className="p-5 flex-1 flex flex-col justify-between">
+      <div className="p-3 sm:p-5 flex-1 flex flex-col justify-between">
         <div>
           <span className="text-[10px] font-sans tracking-widest uppercase text-stone-400 dark:text-stone-500 font-semibold">
             {product.category}
           </span>
           <Link href={`/product/${product.id}`} className="block mt-1">
-            <h3 className="font-product text-base text-stone-850 dark:text-stone-100 hover:text-maroon dark:hover:text-gold transition-colors font-semibold line-clamp-1 leading-snug">
+            <h3 className="font-product text-sm sm:text-base text-stone-850 dark:text-stone-100 hover:text-maroon dark:hover:text-gold transition-colors font-semibold line-clamp-1 leading-snug">
               {product.name}
             </h3>
           </Link>
@@ -102,8 +102,8 @@ export default function ProductCard({ product, onQuickView }) {
         </div>
 
         {/* Price & Primary Link button */}
-        <div className="flex items-center justify-between mt-4 pt-4 border-t border-sand/10">
-          <span className="font-serif text-lg font-semibold text-maroon dark:text-gold">
+        <div className="flex items-center justify-between mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-sand/10">
+          <span className="font-serif text-base sm:text-lg font-semibold text-maroon dark:text-gold">
             {formatCurrency(product.price)}
           </span>
           
