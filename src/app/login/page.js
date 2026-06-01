@@ -242,13 +242,6 @@ function LoginContent() {
           </button>
         </div>
 
-        {/* Quick developer login helper */}
-        <div className="bg-stone-50 dark:bg-stone-900/50 p-4 rounded-xl border border-sand/10 space-y-1 text-stone-400 font-sans text-[10px] leading-relaxed text-center">
-          <span className="font-bold text-stone-500 block">💡 Developer Testing Credentials:</span>
-          <span>Admin: <strong className="text-maroon dark:text-gold">admin@tinycrystals.com</strong> (Password: <strong className="text-maroon dark:text-gold">admin123</strong>)</span> <br />
-          <span>Guest: <strong className="text-maroon dark:text-gold">guest@example.com</strong> (Password: <strong className="text-maroon dark:text-gold">password123</strong>)</span>
-        </div>
-
       </motion.div>
     </main>
   );
